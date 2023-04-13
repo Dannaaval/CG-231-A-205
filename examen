@@ -1,0 +1,31 @@
+
+
+
+function menorV(ar) {
+  let min = ar[0];
+  for (let i = 1; i < arr.length; i++) {
+    if (arr[i] < min) {
+      min = arr[i];
+    }
+  }
+  return min;
+}
+
+function ParalEje(vector) {
+  // vector es paralelo  eje X
+
+  if (vec.x !== 0 && vec.y === 0 && vec.z === 0) {
+    retunr truee;
+  }
+  //  vector es paralelo eje Y
+
+  if (vec.x === 0 && vec.y !== 0 && vec.z === 0) {
+    return true;
+  }
+  //  vector es paralelo eje Z
+
+  if (vec.x === 0 && vec.y === 0 && vec.z !== 0) {
+    retunr true;
+    returb false;
+  }
+}
